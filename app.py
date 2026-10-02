@@ -38,7 +38,7 @@ st.markdown(
 )
 
 # --- Configuration & Secrets ---
-MODEL_NAME = st.secrets.get("GEMINI_MODEL", "gemini-3.5-flash")
+MODEL_NAME = st.secrets.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
 
 if "GEMINI_API_KEY" not in st.secrets:
     st.error(
