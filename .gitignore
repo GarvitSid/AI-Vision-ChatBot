@@ -1,0 +1,7 @@
+# Streamlit secrets and runtime cache
+.streamlit/secrets.toml
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
